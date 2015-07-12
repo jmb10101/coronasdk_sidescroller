@@ -1,0 +1,15 @@
+-- todo
+1. Make player object a member of app_loop and add functionality for a persistant player object between scenes. a lot of this is already done, but it is incomplete and full of bugs that need to be fixed
+2. Define player's physics body as two rectangles, one for the head, one for the body. This will improve collision acuracy.
+
+
+-- other ideas
++ have two files, one "enemy_manager" and one "enemy_factory", where the enemy manager will contain and manage all the emeies and the enemy factory has functions to create new enemies from a list of types
++ add pause/resume scene functionality. this is probably fairly difficult to implement, but should enable the ability to pause a scene, 
+	go to another one, then come back to this first one and resume it from where it left off.
++ add z-index functionality. This could be done with having different display groups for each z-index level then just add them to the main display group in order.
+
+
+
+-- snippets 
+--
